@@ -293,13 +293,46 @@ TRUST IN XRAY-LAB
     INTERESTED IN MORE
 </div>
 <div style="align-items: center;margin-top: 3%;">
-    <p style="text-align: center;">In publishing and graphic design, Lorem ipsum is a placeholder text </p>
+    <p style="text-align: center;">Subscribe to our Newsletter </p>
 
 </div>
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+<form style="display: flex; justify-content: center; align-items: center; margin-top: 20px;" id="email-form">
+    
     <input type="email" placeholder="Enter your email address" style="padding: 10px; font-size: 16px; border: 2px solid #ccc; border-radius: 5px 0 0 5px; outline: none; width: 300px; color: #333;">
-    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #027B48; border-radius: 0 5px 5px 0; background-color: #027B48; color: white; cursor: pointer;">Subscribe</button>
-</div>
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #027B48; border-radius: 0 5px 5px 0; background-color: #027B48; color: white; cursor: pointer;" type="submit">Subscribe</button>
+</form>
+
+<script>
+    document.getElementById("email-form").addEventListener("submit", async function (e) {
+      e.preventDefault(); 
+  
+      const email = e.target.querySelector("input[type='email']").value;
+  
+      try {
+        const response = await fetch("http://be.xis.ai/api/emails", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            data: {
+              email: email,
+            },
+          }),
+        });
+  
+        if (response.ok) {
+          alert("Email submitted successfully!");
+        } else {
+          alert("Failed to submit email.");
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        alert("An error occurred while submitting the email.");
+      }
+    });
+  </script>
+  
 
 <style>
     input::placeholder {
