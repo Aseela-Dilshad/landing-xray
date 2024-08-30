@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-ray Labs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+    <style>
+        body {
+    background-image: linear-gradient(to bottom, #0c1b0c 0%, #000000 70%, #000000 100%); /* Dark Green to Black */
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+        h1 {
+            font-family: 'Inter', sans-serif;
+            font-size: 79px;
+            font-weight: 500;
+            line-height: 1.05;
+            letter-spacing: 0.05em;
+            text-align: left;
+            color: #029D5B;
+            background: linear-gradient(180deg, #029D5B 0%, #027B48 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 48px;
+                margin-left: 0;
+            }
+
+            p {
+                font-size: 16px;
+                margin-left: 0;
+            }
+
+            .btn-custom {
+                margin-left: 0;
+                width: auto; /* Remove full width */
+                display: block;
+                margin-top: 15px; /* Add some top margin */
+            }
+
+            img.scroll-img {
+                width: 120px;
+                margin-top: 10px;
+            }
+
+            img.hero-img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @media (min-width: 769px) {
+            img.hero-img {
+                width: 833px;
+                height: 677px;
+            }
+        }
+
+        p.custom-p {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 31px;
+            font-weight: 300;
+            line-height: 1.25;
+            letter-spacing: 0.2em;
+        }
+
+        p.custom-desc {
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.8;
+            letter-spacing: 0.01em;
+            text-align: left;
+        }
+
+        .btn-custom {
+            color: white;
+            font-family: 'Inter', sans-serif;
+            border-radius: 30px;
+            background: linear-gradient(180deg, #029D5B 0%, #035C37 64%);
+            padding: 10px 20px;
+            display: inline-flex;
+            align-items: center;
+            width: fit-content; /* Adjust width to fit content */
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-2">
+                    <img src="xray/logo.png" alt="Xray Logo" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 mt-4" style="margin-top: 20%;">
+                    <h1 class="ml-md-5">XRAY LAB</h1>
+                    <p class="custom-p ml-md-5">GLIDER</p>
+                    <p class="custom-desc ml-md-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                   
+                    <div class="ml-md-5">
+                        <button class="btn-custom">Explore More <span style="font-size:20px; color: black; background-color: white; border-radius: 50%; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; margin-left: 15px;">&#8599;</span></button>
+                        <br>
+                        <!-- <img src="xray/scroll.png" alt="Scroll" class="scroll-img img-fluid mt-3"> -->
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="hero-container">
+                        <img src="xray/gol1.png" alt="Hero Image" class="hero-img img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; padding: 20px;">
+            <h1 style="
+                font-family: Inter, sans-serif;
+                font-size: 75px;
+                font-weight: 800;
+                line-height: 1.1;
+                letter-spacing: 0.05em;
+                text-align: center;
+                background: linear-gradient(180deg, #029D5B 0%, #027B48 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                display: inline-block;
+                margin: 0;
+            ">
+                OUR BUSINESS AREAS
+            </h1>
+        </div>
+        <div class="container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0;">
+           <!-- Card 1 -->
+<div style="margin-top: 5%;max-height: 350px; width: 360px; background: linear-gradient(180deg, rgba(34, 49, 63, 0.3), rgba(85, 85, 85, 0.3)); border-radius: 15px; padding: 20px; position: relative; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); margin-right: 10px;">
+    <div style="font-family: 'Inter', sans-serif;">
+        <h1 style="color: rgba(34, 166, 179, 1); font-family: 'Plus Jakarta Sans', sans-serif; display: block; margin-bottom: 12px;">01.</h1>
+    </div>
+    <h3 style="font-family: 'Inter', sans-serif; margin: 0; margin-left: 5%;">Industrial X-Ray Technology</h3>
+</div>
+
+        
+            <!-- Card 2 -->
+            <div style="min-height: 320px; width: 350px; background-color: rgba(2, 157, 91, 1); border-radius: 20px; padding: 30px; position: relative; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); margin-right: 10px;">
+                <div style="font-family: 'Inter', sans-serif;">
+                    <h1 style="color: #000000; font-family: 'Plus Jakarta Sans', sans-serif; display: block; margin-bottom: 15px;">02.</h1>
+                </div>
+                <div style="color: black; text-align: left;">
+                    <h3 style="font-family: 'Inter', sans-serif; margin: 0; color: black;">Industrial X-Ray Machine</h3>
+                    <p>Standard 2D/3D X-Ray Machines Selection is challenging because Not Every System is Suitable For Every Application And Material.</p>
+                    <button style="background-color: transparent; color: black; border: 2px solid black; padding: 12px 25px; border-radius: 10px; cursor: pointer; font-size: 16px; font-weight: bold; margin-top: 20px;">Learn More</button>
+                </div>
+            </div>
+            
+        
+            <!-- Card 3 -->
+            <div style="margin-top: 5%; max-height: 350px; width: 360px; background: linear-gradient(180deg, rgba(34, 49, 63, 0.3), rgba(85, 85, 85, 0.3)); border-radius: 15px; padding: 20px; position: relative; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); margin-right: 10px;">
+                <div style="font-family: 'Inter', sans-serif;">
+                    <h1 style="color: rgba(34, 166, 179, 1); font-family: 'Plus Jakarta Sans', sans-serif; display: block; margin-bottom: 12px;">03.</h1>
+                </div>
+                <h3 style="font-family: 'Inter', sans-serif; margin: 0; margin-left: 5%;">Software Development / AI</h3>
+            </div>
+            
+        </div>
+        
+        
+        <div style="margin-top: 5%; background: linear-gradient(180deg, rgba(34, 49, 63, 0.3), rgba(85, 85, 85, 0.3)); border-radius: 15px; padding: 20px; position: relative; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); border: 1px solid grey;">
+            <div class="row" style="display: flex; flex-wrap: wrap;">
+                <h1 style="text-align: center;
+                font-family: inter; font-weight: bold;" >About Us</h1>
+                <!-- Left Column: Images -->
+                <div class="col-md-4" style="position: relative; padding-right: 0;margin-left: 3%;">
+                    <img src="xray/img.png" alt="Image 1" style="width: 100%; border-radius: 10px; position: relative; z-index: 2;">
+                    <img src="xray/img2.png" alt="Image 2" style="width: 70%; border-radius: 10px; position: absolute; top: 10%; left: 50%; z-index: 1;">
+                    
+                </div>
+                
+                <!-- Right Column: Text and Button -->
+                <div class="col-md-6" style="padding-left: 20px; padding-right: 20px;margin-left: 10% ;margin-top: 2%;">
+                    
+                    <p  style="color: gray;">Since Its Foundation in 1998, XRAY-LAB GmbH & Co. KG Has Developed into A Broadly Positioned International Company. What Began With The Business Area Of Industrial X-Ray Analysis in 2D and 3D Computer Tomography And Quality Analysis Was Quickly Expanded To Include Other Services In The Field Of NDT (Non-Destructive Testing Technology). Today, Well-known International Companies From The Automotive, Aerospace, Electronics And Defense Technology Sectors Are Among Our Customers.</p>
+                    <p style="color: gray;">Since Its Beginnings, The Company Has Made A Name For Itself in The Field Of X-Ray Examinations in 2D/2.5D And Computer Tomography. Today, We Can Offer Our Services, Machines And Software At Our Locations, Which Are Located in The Most Important Economic Regions Of The World.</p>
+                    <p style="color: gray;">We Provide Our Customers With A Machine Park With The Latest Technology From 60 KV To B MeV For Their Examinations. High Quantities And Series-Accompanying Tests Are Our Daily Work, As Is The Testing Of Individual Parts Or Components.</p>
+                    <p style="color: gray;">The Special Plant Construction Division in Combination With Our In-House Software Development Takes Care of Customer-Specific Machines For Inline Operation As Well As Special Machines And High-Energy Machines In The Research, Development And Laboratory Sectors. We Started Dealing With The Topic Of Artificial Intelligence (Al) Earty On And Developed Software For Evaluating Industrial X-Ray Images.</p>
+                    <div style="text-align: left;">
+                        <button class="learn-more" style="background-color: #027B48; color: black; border: 1px solid #027B48; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold; margin-top: 20px;">See More</button>
+                    </div>
+                    <div style="align-items: center; color: #027B48; width: 400px; font-size: 72px;">&#8594;</div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Main Div: Xray-Lab in Numbers -->
+<div style="width: 718px; height: 64px; margin: 0 auto; font-family: 'Inter'; font-size: 60px; font-weight: 800; line-height: 63.52px; text-align: center; color: #027B48;margin-top: 5%;">
+    Xray-Lab in Numbers
+</div>
+
+<!-- Row Div with 4 Columns -->
+<div style="display: flex; justify-content: center; margin-top: 5%; margin-bottom: 5%;">
+    <!-- Column 1: Branches with Background Circle -->
+    <div style="text-align: center; margin: 0 30px; position: relative; margin-right: 14%;margin-left: 15%;">
+        <img src="xray/b1.png" alt="Active Customers Image" style="width: 156.61px; height: 150px; border-radius: 10px;">
+        <div style="width: 20px; height: 20px; background-color: #027B48; border-radius: 50%; position: absolute; top: 120px; right: -10px;"></div>
+        <p style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 500; margin: 10px 0;">Brancher</p>
+        <h2 style="font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 700;color: #027B48">08</h2>
+    </div>
+
+    <!-- Column 2: Active Customers -->
+    <div style="text-align: center; margin: 0 30px; position: relative; margin-right: 14%;">
+        <img src="xray/b2.png" alt="Active Customers Image" style="width: 156.61px; height: 150px; border-radius: 10px;">
+        <div style="width: 20px; height: 20px; background-color: #027B48; border-radius: 50%; position: absolute; top: 120px; right: -10px;"></div>
+        <p style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 500; margin: 10px 0;">Active Customers</p>
+        <h2 style="font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 700;color: #027B48">7000+</h2>
+    </div>
+
+    <!-- Column 3: Completed Projects -->
+    <div style="text-align: center; margin: 0 30px; position: relative; margin-right: 14%;">
+        <img src="xray/b3.png" alt="Completed Projects Image" style="width: 156.61px; height: 150px; border-radius: 10px;">
+        <div style="width: 20px; height: 20px; background-color: #027B48; border-radius: 50%; position: absolute; top: 120px; right: -10px;"></div>
+        <p style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 500; margin: 10px 0;">Completed Projects</p>
+        <h2 style="font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 700;color: #027B48">30000+</h2>
+    </div>
+
+    <!-- Column 4: Founded -->
+    <div style="text-align: center; margin: 0 30px; position: relative; margin-right: 14%;">
+        <img src="xray/b4.png" alt="Founded Image" style="width: 156.61px; height: 150px; border-radius: 10px;">
+        <div style="width: 20px; height: 20px; background-color: #027B48; border-radius: 50%; position: absolute; top: 120px; right: -10px;"></div>
+        <p style="font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 500; margin: 10px 0;">Founded</p>
+        <h2 style="font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 700;color: #027B48">1998</h2>
+    </div>
+</div>
+
+<div style="width: 718px; height: 64px; margin: 0 auto; font-family: 'Inter'; font-size: 60px; font-weight: 800; line-height: 63.52px; text-align: center; color: #027B48;margin-top: 5%;">
+    WORLD BRANDS THAT 
+TRUST IN XRAY-LAB
+</div>
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 50px; gap: 20px;margin-top: 5%;">
+    <!-- Logo 1 -->
+    <div >
+        <img src="xray/l1.png" alt="Logo 1" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 2 -->
+    <div >
+        <img src="xray/l2.png" alt="Logo 2" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 3 -->
+    <div >
+        <img src="xray/l3.png" alt="Logo 3" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 4 -->
+    <div>
+        <img src="xray/l4.png" alt="Logo 4" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 5 -->
+    <div >
+        <img src="xray/l5.png" alt="Logo 5" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 6 -->
+    <div >
+        <img src="xray/l6.png" alt="Logo 6" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 7 -->
+    <div >
+        <img src="xray/l7.png" alt="Logo 7" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 8 -->
+    <div >        <img src="xray/l8.png" alt="Logo 8" style="width: 100%; height: 100%;">
+    </div>
+
+    <!-- Logo 9 -->
+   
+</div>
+
+<div style="width: 718px; height: 64px; margin: 0 auto; font-family: 'Inter'; font-size: 60px; font-weight: 800; line-height: 63.52px; text-align: center; color: #027B48;margin-top: 5%;">
+    INTERESTED IN MORE
+</div>
+<div style="align-items: center;margin-top: 3%;">
+    <p style="text-align: center;">In publishing and graphic design, Lorem ipsum is a placeholder text </p>
+
+</div>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+    <input type="email" placeholder="Enter your email address" style="padding: 10px; font-size: 16px; border: 2px solid #ccc; border-radius: 5px 0 0 5px; outline: none; width: 300px; color: #333;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #027B48; border-radius: 0 5px 5px 0; background-color: #027B48; color: white; cursor: pointer;">Subscribe</button>
+</div>
+
+<style>
+    input::placeholder {
+        color: grey;
+    }
+</style>
+<footer style="background-color: rgba(26, 26, 26, 1); padding: 40px 20px; color: rgb(255, 255, 255); margin-top: 50px;width: 102%;">
+    <div class="container">
+        <div class="row">
+            <!-- Company Logo -->
+            <div class="col-md-3">
+                <img src="xray/logo.png" alt="Company Logo" style="width: 150px;">
+            </div>
+
+            <!-- Columns for certifications and contact us -->
+           
+            <div class="col-md-3">
+                <h5 style="font-family: 'Inter', sans-serif; padding-bottom: 30px;">About Us</h5>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">impressum</a>
+                    </li>
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">Terms and Conditions / AGB</a>
+                    </li>
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">General Terms and Conditions </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5 style="font-family: 'Inter', sans-serif; padding-bottom: 30px;">Certificates</h5>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">Cookie Directive (EU)</a>
+                    </li>
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">Data Privacy Policy</a>
+                    </li>
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">Data Protection Declaration</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5 style="font-family: 'Inter', sans-serif; padding-bottom: 30px;">Contact Us</h5>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">0800 972 9522</a>
+                    </li>
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">+49 7045 204450</a>
+                    </li>
+                    <li style="padding-bottom: 25px;">
+                        <a href="#" style="color: #525252; text-decoration: none;">contact@xray-lab.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social Media Icons -->
+           
+        </div>
+        <!-- Social Media Icons -->
+        <div class="row" style="align-items: center; margin-top: 3%;">
+            <div class="col-md-3 d-flex justify-content-center" style="align-items: center; margin-left: 30%;">
+                <a href="#" class="text-white" style="margin: 0 10px; background-color: rgba(30, 30, 35, 1); padding: 10px; border-radius: 50%;">
+                    <i class="bi bi-facebook" style="font-size: 20px;"></i>
+                </a>
+                <a href="#" class="text-white" style="margin: 0 10px; background-color: rgba(30, 30, 35, 1); padding: 10px; border-radius: 50%;">
+                    <i class="bi bi-medium" style="font-size: 20px;"></i>
+                </a>
+                <a href="#" class="text-white" style="margin: 0 10px; background-color: rgba(30, 30, 35, 1); padding: 10px; border-radius: 50%;">
+                    <i class="bi bi-linkedin" style="font-size: 20px;"></i>
+                </a>
+                <a href="#" class="text-white" style="margin: 0 10px; background-color: rgba(30, 30, 35, 1); padding: 10px; border-radius: 50%;">
+                    <i class="bi bi-twitter" style="font-size: 20px;"></i>
+                </a>
+                <a href="#" class="text-white" style="margin: 0 10px; background-color: rgba(30, 30, 35, 1); padding: 10px; border-radius: 50%;">
+                    <i class="bi bi-youtube" style="font-size: 20px;"></i>
+                </a>
+                <a href="#" class="text-white" style="margin: 0 10px; background-color: rgba(30, 30, 35, 1); padding: 10px; border-radius: 50%;">
+                    <i class="bi bi-instagram" style="font-size: 20px;"></i>
+                </a>
+            </div>
+        
+            <!-- Schedule Meeting and Telegram Buttons -->
+            <div class="col-md-3 d-flex justify-content-end align-items-center" style="margin-left: 20%;">
+                <button style="background-color: #027B48; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-right: 10px;">
+                    Schedule Meeting
+                </button>
+                <a href="#" class="text-white" style="margin: 0 10px; background-color: rgba(30, 30, 35, 1); padding: 10px; border-radius: 50%;">
+                    <i class="bi bi-telegram" style="font-size: 20px;"></i>
+                </a>
+            </div>
+        </div>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+        
+    </div>
+</footer>
+
+        </div>        
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
